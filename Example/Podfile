@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'KeyboardLayoutGuide_Example', :exclusive => true do
+  pod 'KeyboardLayoutGuide', :path => '../'
+end
+
+target 'KeyboardLayoutGuide_Tests', :exclusive => true do
+  pod 'KeyboardLayoutGuide', :path => '../'
+
+  
+end

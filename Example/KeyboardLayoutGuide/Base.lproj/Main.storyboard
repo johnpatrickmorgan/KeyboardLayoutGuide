@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="k6s-Fm-f5V">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--PROGRAMMATIC-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController storyboardIdentifier="Test" title="PROGRAMMATIC" id="vXZ-lx-hvc" customClass="ProgrammaticViewController" customModule="KeyboardLayoutGuide_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SE3-ee-Pov" userLabel="Content">
+                                <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8UM-oE-Kua">
+                                        <rect key="frame" x="8" y="461" width="304" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mg8-1I-eKP">
+                                        <rect key="frame" x="127" y="235" width="66" height="30"/>
+                                        <state key="normal" title="PRESENT"/>
+                                        <connections>
+                                            <action selector="presentButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="AFm-ea-BxR"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="trailingMargin" secondItem="8UM-oE-Kua" secondAttribute="trailing" id="O5c-QC-f4n"/>
+                                    <constraint firstItem="Mg8-1I-eKP" firstAttribute="centerY" secondItem="SE3-ee-Pov" secondAttribute="centerY" id="TiD-sj-WtX"/>
+                                    <constraint firstAttribute="bottom" secondItem="8UM-oE-Kua" secondAttribute="bottom" constant="8" id="XUG-50-hX3"/>
+                                    <constraint firstItem="8UM-oE-Kua" firstAttribute="leading" secondItem="SE3-ee-Pov" secondAttribute="leadingMargin" id="cib-Mn-1qL"/>
+                                    <constraint firstItem="Mg8-1I-eKP" firstAttribute="centerX" secondItem="SE3-ee-Pov" secondAttribute="centerX" id="oeN-yB-GSy"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="SRT-Rn-zj7" appends="YES" id="mYH-3z-Kgc"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.74171935517603782" green="0.8694911858974359" blue="0.68391088149715096" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="SE3-ee-Pov" secondAttribute="trailing" id="0Xj-0G-hHt"/>
+                            <constraint firstItem="SE3-ee-Pov" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="ANl-ts-kDt"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="SE3-ee-Pov" secondAttribute="bottom" priority="249" id="XMG-hH-WV5"/>
+                            <constraint firstItem="SE3-ee-Pov" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="h6T-qV-wCv"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="cpe-Nc-6uJ"/>
+                    <connections>
+                        <outlet property="button" destination="Mg8-1I-eKP" id="Hdh-zh-Y93"/>
+                        <outlet property="contentView" destination="SE3-ee-Pov" id="3kw-Ac-Hfo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="SRT-Rn-zj7">
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="vXZ-lx-hvc" id="AWZ-Eq-iqe"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1001" y="311"/>
+        </scene>
+        <!--PROXY-->
+        <scene sceneID="NYz-sy-grY">
+            <objects>
+                <viewController title="PROXY" id="n5o-g1-d9G" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Huq-An-rhN"/>
+                        <viewControllerLayoutGuide type="bottom" id="GM2-14-ux0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EKI-fZ-2FE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view hidden="YES" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="hxS-QT-7L6" userLabel="KeyboardProxy">
+                                <rect key="frame" x="0.0" y="391" width="320" height="128"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" placeholder="YES" id="Xf2-bn-mKD"/>
+                                </constraints>
+                            </view>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3nj-cN-Nis">
+                                <rect key="frame" x="16" y="353" width="288" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.77978006162987712" green="0.91850792841844331" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="3nj-cN-Nis" secondAttribute="trailing" id="11K-7b-Uvx"/>
+                            <constraint firstAttribute="trailing" secondItem="hxS-QT-7L6" secondAttribute="trailing" placeholder="YES" id="7M3-qZ-2Vr"/>
+                            <constraint firstItem="hxS-QT-7L6" firstAttribute="top" relation="greaterThanOrEqual" secondItem="3nj-cN-Nis" secondAttribute="bottom" constant="8" id="NJF-iZ-hzJ"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="3nj-cN-Nis" secondAttribute="leading" id="SjS-LR-Jz3"/>
+                            <constraint firstItem="GM2-14-ux0" firstAttribute="top" secondItem="hxS-QT-7L6" secondAttribute="bottom" placeholder="YES" id="dVd-e2-XgZ"/>
+                            <constraint firstItem="GM2-14-ux0" firstAttribute="top" secondItem="3nj-cN-Nis" secondAttribute="bottom" priority="750" constant="8" id="rSc-UQ-Br1"/>
+                            <constraint firstItem="hxS-QT-7L6" firstAttribute="leading" secondItem="EKI-fZ-2FE" secondAttribute="leading" placeholder="YES" id="yRW-S2-W2t"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="D18-xm-6Qm" appends="YES" id="3Qj-yc-fMb"/>
+                        </connections>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="gnL-ve-mFD"/>
+                    <connections>
+                        <outlet property="klg_keyboardProxy" destination="hxS-QT-7L6" id="6ce-Vl-CIl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VV3-Ao-GU3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="D18-xm-6Qm">
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="n5o-g1-d9G" id="UDp-FY-nue"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="616" y="311"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="knw-yb-bvR">
+            <objects>
+                <viewController id="Z8Y-X6-NcK" customClass="ContainerViewController" customModule="KeyboardLayoutGuide_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7BX-1F-jsk"/>
+                        <viewControllerLayoutGuide type="bottom" id="GLK-h3-oyo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Cu-yq-HX4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O1u-vo-mGC">
+                                <rect key="frame" x="40" y="78" width="240" height="364"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="364" id="1xk-21-b2P"/>
+                                    <constraint firstAttribute="width" constant="240" id="IEJ-of-0QN"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="cLT-jC-kjg" kind="embed" id="bFs-jx-YJJ"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="O1u-vo-mGC" firstAttribute="centerY" secondItem="4Cu-yq-HX4" secondAttribute="centerY" id="54s-6U-CiR"/>
+                            <constraint firstItem="O1u-vo-mGC" firstAttribute="centerX" secondItem="4Cu-yq-HX4" secondAttribute="centerX" id="uQu-rX-E9d"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="COq-WX-tzm" appends="YES" id="g0R-wT-KpF"/>
+                            <outletCollection property="gestureRecognizers" destination="wKJ-Aq-3Nq" appends="YES" id="ttv-N8-EkA"/>
+                        </connections>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="8BE-nr-mne"/>
+                    <connections>
+                        <outlet property="centerXConstraint" destination="uQu-rX-E9d" id="yte-K3-4TH"/>
+                        <outlet property="centerYConstraint" destination="54s-6U-CiR" id="nOf-dD-Qu9"/>
+                        <outlet property="container" destination="O1u-vo-mGC" id="HAx-b4-2N6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V7t-5Z-Kod" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="COq-WX-tzm">
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="Z8Y-X6-NcK" id="jGg-ia-RVp"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="wKJ-Aq-3Nq">
+                    <connections>
+                        <action selector="handlePan:" destination="Z8Y-X6-NcK" id="yAY-CQ-83Y"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="227" y="311"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="gWS-EA-YbA">
+            <objects>
+                <tabBarController id="k6s-Fm-f5V" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="fZT-zp-VQa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Z8Y-X6-NcK" kind="relationship" relationship="viewControllers" id="qaO-IK-gW9"/>
+                        <segue destination="n5o-g1-d9G" kind="relationship" relationship="viewControllers" id="cvf-WH-TfF"/>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="dMm-Qo-tLg"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s8J-kR-wWc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="616" y="-435"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sZN-VS-082">
+            <objects>
+                <viewController id="cLT-jC-kjg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Etd-o6-Z94"/>
+                        <viewControllerLayoutGuide type="bottom" id="eu6-FO-hVY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" id="niQ-Ld-Aqw">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="364"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FZT-od-kpM">
+                                <rect key="frame" x="16" y="232" width="208" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ybl-Ry-5bZ">
+                                <rect key="frame" x="0.0" y="270" width="240" height="94"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="94" placeholder="YES" id="ef2-TD-UV0"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.77780973826092947" blue="0.7323324353681846" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ybl-Ry-5bZ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="FZT-od-kpM" secondAttribute="bottom" constant="8" id="1Bz-rb-ACn"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="FZT-od-kpM" secondAttribute="leading" id="Aqg-Zs-DXO"/>
+                            <constraint firstAttribute="bottom" secondItem="Ybl-Ry-5bZ" secondAttribute="bottom" placeholder="YES" id="Bf2-1f-stx"/>
+                            <constraint firstItem="Ybl-Ry-5bZ" firstAttribute="leading" secondItem="niQ-Ld-Aqw" secondAttribute="leading" placeholder="YES" id="hot-BK-zHq"/>
+                            <constraint firstAttribute="trailing" secondItem="Ybl-Ry-5bZ" secondAttribute="trailing" placeholder="YES" id="o9i-69-zKB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FZT-od-kpM" secondAttribute="trailing" id="px8-01-fiL"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="FZT-od-kpM" secondAttribute="bottom" priority="750" id="qAO-jL-iUp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="klg_keyboardProxy" destination="Ybl-Ry-5bZ" id="sel-B9-msF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xBB-wB-yHp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="78" y="-275"/>
+        </scene>
+    </scenes>
+</document>
