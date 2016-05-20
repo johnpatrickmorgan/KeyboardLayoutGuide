@@ -11,6 +11,11 @@ import LifecycleHooks
 
 public extension UIViewController {
     
+    var viewIfViewIsLoaded: UIView? {
+        
+        return isViewLoaded() ? view : nil
+    }
+    
     private struct AssociatedKeys {
         
         static var keyboardProxy = "KeyboardLayoutGuide_keyboardProxy"
@@ -42,9 +47,9 @@ public extension UIViewController {
      */
     public func klg_constrainKeyboard(createConstraints: KeyboardLayoutGuide -> [NSLayoutConstraint]) {
         
-        onView(.DidMoveToWindow) { [weak self] window in
+        onView(.DidMoveToWindow) { [weak self] in
             
-            if let window = window {
+            if let window = self?.viewIfViewIsLoaded?.window {
                 
                 let guide = KeyboardLayoutGuideManager.keyboardLayoutGuide(forWindow: window)
                 let constraints = createConstraints(guide)
