@@ -1,17 +1,17 @@
 PODS:
-  - KeyboardLayoutGuide (0.1.0):
+  - KeyboardLayoutGuide (0.1.1):
     - LifecycleHooks
-  - LifecycleHooks (0.1.0)
+  - LifecycleHooks (0.1.2)
 
 DEPENDENCIES:
   - KeyboardLayoutGuide (from `../`)
 
 EXTERNAL SOURCES:
   KeyboardLayoutGuide:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  KeyboardLayoutGuide: 97e727cf81dab3ec2525ab443384521a22d932a1
-  LifecycleHooks: 309fcd33edcc470c75b42c791b2093dc3e445fb7
+  KeyboardLayoutGuide: 83f03425dd8ba18bfa3cacb50d0447509cb9b09d
+  LifecycleHooks: 5ce031cf49eade43899127d3eeb09f9c7b5a263a
 
 COCOAPODS: 0.39.0
