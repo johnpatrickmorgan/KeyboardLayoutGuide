@@ -1,0 +1,6 @@
+framework module KeyboardLayoutGuide {
+  umbrella header "KeyboardLayoutGuide-umbrella.h"
+
+  export *
+  module * { export * }
+}

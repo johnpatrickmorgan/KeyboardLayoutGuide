@@ -1,0 +1,6 @@
+framework module LifecycleHooks {
+  umbrella header "LifecycleHooks-umbrella.h"
+
+  export *
+  module * { export * }
+}

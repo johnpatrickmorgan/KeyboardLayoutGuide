@@ -13,10 +13,13 @@ public extension UIViewController {
     
     var viewIfViewIsLoaded: UIView? {
         
-        return isViewLoaded() ? view : nil
+        if #available(iOS 9.0, *) {
+            return viewIfLoaded
+        }
+        return isViewLoaded ? view : nil
     }
     
-    private struct AssociatedKeys {
+    fileprivate struct AssociatedKeys {
         
         static var keyboardProxy = "KeyboardLayoutGuide_keyboardProxy"
     }
@@ -45,19 +48,19 @@ public extension UIViewController {
      
      - parameter createConstraints: A closure within which the layout guide is available for use in constraints. Generated constraints should be returned by the closure.
      */
-    public func klg_constrainKeyboard(createConstraints: KeyboardLayoutGuide -> [NSLayoutConstraint]) {
+    public func klg_constrainKeyboard(_ createConstraints: @escaping (KeyboardLayoutGuide) -> [NSLayoutConstraint]) {
         
-        onView(.DidMoveToWindow) { [weak self] in
+        onView(.didMoveToWindow) { [weak self] in
             
             if let window = self?.viewIfViewIsLoaded?.window {
                 
                 let guide = KeyboardLayoutGuideManager.keyboardLayoutGuide(forWindow: window)
                 let constraints = createConstraints(guide)
-                constraints.forEach { $0.active = true }
+                constraints.forEach { $0.isActive = true }
                 
-                self?.on(.ViewWillDisappear, onceOnly: true) { _ in
+                self?.on(.viewWillDisappear, onceOnly: true) { _ in
                     
-                    constraints.forEach { $0.active = false }
+                    constraints.forEach { $0.isActive = false }
                 }
             }
         }
@@ -72,13 +75,13 @@ public extension UIViewController {
      layout guide. It should not have any other constraints that might conflict . The proxy must be part
      of the view controller's view hierarchy.
      */
-    public func klg_constrainKeyboardProxy(proxy: UIView) {
+    public func klg_constrainKeyboardProxy(_ proxy: UIView) {
         
-        proxy.hidden = true
+        proxy.isHidden = true
         
         klg_constrainKeyboard() { keyboardLayoutGuide in
             
-            let attributes: [NSLayoutAttribute] = [.Top, .Bottom, .Leading, .Trailing]
+            let attributes: [NSLayoutAttribute] = [.top, .bottom, .leading, .trailing]
             var constraints = [NSLayoutConstraint]()
             
             for attribute in attributes {
@@ -86,13 +89,13 @@ public extension UIViewController {
                 let constraint = NSLayoutConstraint(
                     item: keyboardLayoutGuide,
                     attribute: attribute,
-                    relatedBy: .GreaterThanOrEqual,
+                    relatedBy: .greaterThanOrEqual,
                     toItem: proxy,
                     attribute: attribute,
                     multiplier: 1.0,
                     constant: 0.0)
                 
-                constraint.active = true
+                constraint.isActive = true
                 constraint.identifier = "KeyboardLayoutGuideProxy_\(attribute)"
                 constraints.append(constraint)
             }

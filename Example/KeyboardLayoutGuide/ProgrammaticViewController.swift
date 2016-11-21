@@ -20,39 +20,39 @@ class ProgrammaticViewController: UIViewController, KeyboardConstraining {
         
         constrainKeyboard(contentView) { keyboard, contentView in
             
-            return [keyboard.topAnchor.constraintGreaterThanOrEqualToAnchor(contentView.bottomAnchor)]
+            return [keyboard.topAnchor.constraint(greaterThanOrEqualTo: contentView.bottomAnchor)]
         }
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         
         super.viewWillAppear(animated)
         
         let title = presentingViewController == nil ? "PRESENT" : "CLOSE"
         
-        button.setTitle(title, forState: .Normal)
+        button.setTitle(title, for: .normal)
     }
     
-    override func viewWillDisappear(animated: Bool) {
+    override func viewWillDisappear(_ animated: Bool) {
         
         super.viewWillDisappear(animated)
         
         dismissKeyboard(nil)
     }
     
-    @IBAction func presentButtonTapped(sender: AnyObject?) {
+    @IBAction func presentButtonTapped(_ sender: AnyObject?) {
         
         if let presentingViewController = presentingViewController {
-            presentingViewController.dismissViewControllerAnimated(true, completion: nil)
+            presentingViewController.dismiss(animated: true, completion: nil)
             return
         }
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
-        let vc = storyboard.instantiateViewControllerWithIdentifier("Test")
-        vc.view.backgroundColor = .greenColor()
+        let vc = storyboard.instantiateViewController(withIdentifier: "Test")
+        vc.view.backgroundColor = .green
         
-        presentViewController(vc, animated: true, completion: nil)
+        present(vc, animated: true, completion: nil)
     }
 }
 

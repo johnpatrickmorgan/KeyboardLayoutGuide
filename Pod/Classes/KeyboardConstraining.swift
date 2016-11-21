@@ -21,7 +21,7 @@ extension KeyboardConstraining where Self: UIViewController {
      
      - parameter createConstraints: A closure within which the layout guide is available for use in constraints. Generated constraints should be returned by the closure.
      */
-    public func constrainKeyboard(createConstraints: KeyboardLayoutGuide -> [NSLayoutConstraint]) {
+    public func constrainKeyboard(_ createConstraints: @escaping (KeyboardLayoutGuide) -> [NSLayoutConstraint]) {
         
         klg_constrainKeyboard(createConstraints)
     }
@@ -33,7 +33,7 @@ extension KeyboardConstraining where Self: UIViewController {
      - parameter view1: A view to be passed into the closure
      - parameter createConstraints: A closure within which the layout guide is available for use in constraints. Generated constraints should be returned by the closure.
      */
-    public func constrainKeyboard<T: UIView>(view1: T, createConstraints: (KeyboardLayoutGuide, T) -> [NSLayoutConstraint]) {
+    public func constrainKeyboard<T: UIView>(_ view1: T, createConstraints: @escaping (KeyboardLayoutGuide, T) -> [NSLayoutConstraint]) {
         
         klg_constrainKeyboard() { [weak view1] keyboard in
             
@@ -50,11 +50,11 @@ extension KeyboardConstraining where Self: UIViewController {
      - parameter view2: A view to be passed into the closure
      - parameter createConstraints: A closure within which the layout guide is available for use in constraints. Generated constraints should be returned by the closure.
      */
-    public func constrainKeyboard<T: UIView, U: UIView>(view1: T, _ view2: U, createConstraints: (KeyboardLayoutGuide, T, U) -> [NSLayoutConstraint]) {
+    public func constrainKeyboard<T: UIView, U: UIView>(_ view1: T, _ view2: U, createConstraints: @escaping (KeyboardLayoutGuide, T, U) -> [NSLayoutConstraint]) {
         
         klg_constrainKeyboard() { [weak view1, weak view2] keyboard in
             
-            guard let view1 = view1, view2 = view2 else { return [] }
+            guard let view1 = view1, let view2 = view2 else { return [] }
             return createConstraints(keyboard, view1, view2)
         }
     }
@@ -68,11 +68,11 @@ extension KeyboardConstraining where Self: UIViewController {
      - parameter view3: A view to be passed into the closure
      - parameter createConstraints: A closure within which the layout guide is available for use in constraints. Generated constraints should be returned by the closure.
      */
-    public func constrainKeyboard<T: UIView, U: UIView, V: UIView>(view1: T, _ view2: U, _ view3: V, createConstraints: (KeyboardLayoutGuide, T, U, V) -> [NSLayoutConstraint]) {
+    public func constrainKeyboard<T: UIView, U: UIView, V: UIView>(_ view1: T, _ view2: U, _ view3: V, createConstraints: @escaping (KeyboardLayoutGuide, T, U, V) -> [NSLayoutConstraint]) {
         
         klg_constrainKeyboard() { [weak view1, weak view2, weak view3] keyboard in
             
-            guard let view1 = view1, view2 = view2, view3 = view3 else { return [] }
+            guard let view1 = view1, let view2 = view2, let view3 = view3 else { return [] }
             return createConstraints(keyboard, view1, view2, view3)
         }
     }
@@ -87,11 +87,11 @@ extension KeyboardConstraining where Self: UIViewController {
      - parameter view4: A view to be passed into the closure
      - parameter createConstraints: A closure within which the layout guide is available for use in constraints. Generated constraints should be returned by the closure.
      */
-    public func constrainKeyboard<T: UIView, U: UIView, V: UIView, W: UIView>(view1: T, _ view2: U, _ view3: V, _ view4: W, createConstraints: (KeyboardLayoutGuide, T, U, V, W) -> [NSLayoutConstraint]) {
+    public func constrainKeyboard<T: UIView, U: UIView, V: UIView, W: UIView>(_ view1: T, _ view2: U, _ view3: V, _ view4: W, createConstraints: @escaping (KeyboardLayoutGuide, T, U, V, W) -> [NSLayoutConstraint]) {
         
         klg_constrainKeyboard() { [weak view1, weak view2, weak view3, weak view4] keyboard in
             
-            guard let view1 = view1, view2 = view2, view3 = view3, view4 = view4 else { return [] }
+            guard let view1 = view1, let view2 = view2, let view3 = view3, let view4 = view4 else { return [] }
             return createConstraints(keyboard, view1, view2, view3, view4)
         }
     }
@@ -105,7 +105,7 @@ extension KeyboardConstraining where Self: UIViewController {
      layout guide. It should not have any other constraints that might conflict . The proxy must be part
      of the view controller's view hierarchy.
      */
-    public func constrainKeyboardProxy(proxy: UIView) {
+    public func constrainKeyboardProxy(_ proxy: UIView) {
         
         klg_constrainKeyboardProxy(proxy)
     }

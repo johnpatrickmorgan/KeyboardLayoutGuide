@@ -13,35 +13,32 @@ import Foundation
  */
 public struct KeyboardLayoutGuideManager {
     
+    private static var __registerForNotificationsOnceOnly: () = { () -> Void in
+        
+        NotificationCenter.default.addObserver(forName: NSNotification.Name.UIKeyboardWillChangeFrame, object: nil, queue: .main) { notification in
+            
+            guard let
+                newFrame = ((notification as NSNotification).userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue,
+                let duration = (notification as NSNotification).userInfo?[UIKeyboardAnimationDurationUserInfoKey] as? TimeInterval else {
+                return
+            }
+            
+            keyboardDidChangeFrame(newFrame, duration: duration)
+        }
+    }()
+    
     private static var keyboardLayoutGuides = [UIWindow : KeyboardLayoutGuide]()
     
     /// The current height of the keyboard.
-    public private(set) static var keyboardHeight: CGFloat = 0.0 {
+    public fileprivate(set) static var keyboardHeight: CGFloat = 0.0 {
         didSet {
             updateGuides()
         }
     }
     
-    static func registerForNotificationsIfNeeded() {
-        
-        var token: dispatch_once_t = 0
-        dispatch_once(&token) { () -> Void in
-            NSNotificationCenter.defaultCenter().addObserverForName(UIKeyboardWillChangeFrameNotification, object: nil, queue: .mainQueue()) { notification in
-                
-                guard let
-                    newFrame = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.CGRectValue(),
-                    duration = notification.userInfo?[UIKeyboardAnimationDurationUserInfoKey] as? NSTimeInterval else {
-                    return
-                }
-                
-                keyboardDidChangeFrame(newFrame, duration: duration)
-            }
-        }
-    }
-    
     static func keyboardLayoutGuide(forWindow window: UIWindow) -> KeyboardLayoutGuide {
         
-        registerForNotificationsIfNeeded()
+        _ = self.__registerForNotificationsOnceOnly
         
         if let guide = keyboardLayoutGuides[window] { return guide }
         
@@ -49,16 +46,16 @@ public struct KeyboardLayoutGuideManager {
         
         window.addSubview(guide)
         
-        let edges: [NSLayoutAttribute] = [.Bottom, .Leading, .Trailing]
+        let edges: [NSLayoutAttribute] = [.bottom, .leading, .trailing]
         
         for edge in edges {
             NSLayoutConstraint(item: window,
                                attribute: edge,
-                               relatedBy: .Equal,
+                               relatedBy: .equal,
                                toItem: guide,
                                attribute: edge,
                                multiplier: 1.0,
-                               constant: 0.0).active = true
+                               constant: 0.0).isActive = true
         }
 
         guide.keyboardHeight = keyboardHeight
@@ -75,14 +72,14 @@ public struct KeyboardLayoutGuideManager {
         }
     }
     
-    static func keyboardDidChangeFrame(newFrame: CGRect, duration: NSTimeInterval) {
+    static func keyboardDidChangeFrame(_ newFrame: CGRect, duration: TimeInterval) {
         
-        guard let window = UIApplication.sharedApplication().keyWindow else { return }
+        guard let window = UIApplication.shared.keyWindow else { return }
         
-        let visibleKeyboardFrame = CGRectIntersection(newFrame, window.frame)
+        let visibleKeyboardFrame = newFrame.intersection(window.frame)
         
         window.layoutIfNeeded()
-        UIView.animateWithDuration(duration) {
+        UIView.animate(withDuration: duration) {
             
             keyboardHeight = visibleKeyboardFrame.height
             window.layoutIfNeeded()

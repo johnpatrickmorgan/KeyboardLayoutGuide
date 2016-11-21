@@ -13,7 +13,7 @@ import UIKit
  */
 public class KeyboardLayoutGuide: UIView {
 
-    var keyboardHeight: CGFloat = 0.0 {
+    public var keyboardHeight: CGFloat = 0.0 {
         didSet {
             invalidateIntrinsicContentSize()
         }
@@ -35,17 +35,17 @@ public class KeyboardLayoutGuide: UIView {
     
     func sharedInit() {
         
-        setContentHuggingPriority(UILayoutPriorityRequired, forAxis: .Vertical)
-        setContentCompressionResistancePriority(UILayoutPriorityRequired, forAxis: .Vertical)
+        setContentHuggingPriority(UILayoutPriorityRequired, for: .vertical)
+        setContentCompressionResistancePriority(UILayoutPriorityRequired, for: .vertical)
         
         translatesAutoresizingMaskIntoConstraints = false
         
-        hidden = true
-        userInteractionEnabled = false
+        isHidden = true
+        isUserInteractionEnabled = false
         alpha = 0.0
     }
     
-    override public func intrinsicContentSize() -> CGSize {
+    override public var intrinsicContentSize: CGSize {
         
         return CGSize(width: UIViewNoIntrinsicMetric, height: keyboardHeight)
     }

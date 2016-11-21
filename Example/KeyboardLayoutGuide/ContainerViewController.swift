@@ -15,16 +15,16 @@ class ContainerViewController: UIViewController {
     @IBOutlet weak var centerYConstraint: NSLayoutConstraint!
     @IBOutlet weak var centerXConstraint: NSLayoutConstraint!
     
-    @IBAction func handlePan(sender: UIPanGestureRecognizer) {
+    @IBAction func handlePan(_ sender: UIPanGestureRecognizer) {
         
-        if let view = sender.view where sender.state == .Changed {
+        if let view = sender.view, sender.state == .changed {
             
-            let translation = sender.translationInView(view)
+            let translation = sender.translation(in: view)
             
             centerXConstraint.constant += translation.x
             centerYConstraint.constant += translation.y
 
-            sender.setTranslation(CGPointZero, inView: view)
+            sender.setTranslation(.zero, in: view)
         }
     }
 }

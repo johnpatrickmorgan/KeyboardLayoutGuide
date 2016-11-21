@@ -11,18 +11,18 @@ import UIKit
 
 extension UIViewController {
     
-    @IBAction func dismissKeyboard(sender: AnyObject?) {
+    @IBAction func dismissKeyboard(_ sender: AnyObject?) {
         
-        UIApplication.sharedApplication().keyWindow?.endEditing(true)
+        UIApplication.shared.keyWindow?.endEditing(true)
     }
     
-    @IBAction func dismissIfPresented(sender: AnyObject?) {
+    @IBAction func dismissIfPresented(_ sender: AnyObject?) {
         
         dismissIfPresented()
     }
     
-    func dismissIfPresented(animated: Bool = true, completion: (() -> Void)? = nil) {
+    func dismissIfPresented(_ animated: Bool = true, completion: (() -> Void)? = nil) {
         
-        presentingViewController?.dismissViewControllerAnimated(animated, completion: completion)
+        presentingViewController?.dismiss(animated: animated, completion: completion)
     }
 }
