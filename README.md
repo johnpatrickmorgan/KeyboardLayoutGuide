@@ -3,7 +3,7 @@
 
 [![Version](https://img.shields.io/cocoapods/v/KeyboardLayoutGuide.svg?style=flat)](http://cocoapods.org/pods/KeyboardLayoutGuide)
 [![License](https://img.shields.io/cocoapods/l/KeyboardLayoutGuide.svg?style=flat)](http://cocoapods.org/pods/KeyboardLayoutGuide)
-![Swift](https://img.shields.io/badge/Swift-2.2-orange.svg)
+![Swift](https://img.shields.io/badge/Swift-3.0-orange.svg)
 
 Imagine being able to set up Autolayout constraints directly between your views and the iOS keyboard, so that your layout updates whenever the keyboard's frame changes. KeyboardLayoutGuide makes that possible, providing options to do so entirely within Interface Builder, or in code via a simple interface:
 
@@ -21,7 +21,7 @@ Declare your view controller to conform to `KeyboardConstraining`. This is an em
 
     constrainKeyboard(contentView) { keyboard, contentView in
         
-        return [keyboard.topAnchor.constraintEqualToAnchor(contentView.bottomAnchor)]
+        return [keyboard.topAnchor.constraint(equalTo: contentView.bottomAnchor)]
     }
 
 The bottom of `contentView` will now be constrained to the top of the keyboard, and will update whenever the keyboard's frame changes. You can use vanilla AutoLayout or any third-party library for creating the constraints. They will be activated when the view is added to a window, and deactivated on `viewWillDisappear`. 
@@ -30,7 +30,7 @@ For a more complex example, imagine a view where the bottom of the table view sh
 
     constrainKeyboard(tableView) { keyboard, tableView in
         
-        return [keyboard.topAnchor.constraintGreaterThanOrEqualToAnchor(tableView.bottomAnchor)]
+        return [keyboard.topAnchor.constraint(greaterThanOrEqualTo: tableView.bottomAnchor)]
     }
 
 ### Via Interface Builder
