@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/KeyboardLayoutGuide.svg?style=flat)](http://cocoapods.org/pods/KeyboardLayoutGuide)
 ![Swift](https://img.shields.io/badge/Swift-3.0-orange.svg)
 
-Imagine being able to set up Autolayout constraints directly between your views and the iOS keyboard, so that your layout updates whenever the keyboard's frame changes. KeyboardLayoutGuide makes that possible, providing options to do so entirely within Interface Builder, or in code via a simple interface:
+Imagine being able to set up Auto Layout constraints directly between your views and the iOS keyboard, so that your layout updates whenever the keyboard's frame changes. KeyboardLayoutGuide makes that possible, providing options to do so entirely within Interface Builder, or in code via a simple interface:
 
     constrainKeyboard(myView) { keyboard, myView in
         
@@ -24,7 +24,7 @@ Declare your view controller to conform to `KeyboardConstraining`. This is an em
         return [keyboard.topAnchor.constraint(equalTo: contentView.bottomAnchor)]
     }
 
-The bottom of `contentView` will now be constrained to the top of the keyboard, and will update whenever the keyboard's frame changes. You can use vanilla AutoLayout or any third-party library for creating the constraints. They will be activated when the view is added to a window, and deactivated on `viewWillDisappear`. 
+The bottom of `contentView` will now be constrained to the top of the keyboard, and will update whenever the keyboard's frame changes. You can use vanilla Auto Layout or any third-party library for creating the constraints. They will be activated when the view is added to a window, and deactivated on `viewWillDisappear`. 
 
 For a more complex example, imagine a view where the bottom of the table view should rest on the top of the tab bar, or the top of the keyboard, whichever is higher. In that instance, you would constrain the bottom of your tableView to the top of the bottomLayoutGuide, with a priority lower than 1000 (since it needs to be broken when the keyboard appears). When coupled with an inequality constraint with the keyboard, this will ensure the correct behaviour:
 
