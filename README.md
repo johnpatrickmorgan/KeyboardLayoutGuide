@@ -3,7 +3,7 @@
 
 [![Version](https://img.shields.io/cocoapods/v/KeyboardLayoutGuide.svg?style=flat)](http://cocoapods.org/pods/KeyboardLayoutGuide)
 [![License](https://img.shields.io/cocoapods/l/KeyboardLayoutGuide.svg?style=flat)](http://cocoapods.org/pods/KeyboardLayoutGuide)
-![Swift](https://img.shields.io/badge/Swift-3.0-orange.svg)
+![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg)
 
 Imagine being able to set up Auto Layout constraints directly between your views and the iOS keyboard, so that your layout updates whenever the keyboard's frame changes. KeyboardLayoutGuide makes that possible, providing options to do so entirely within Interface Builder, or in code via a simple interface:
 

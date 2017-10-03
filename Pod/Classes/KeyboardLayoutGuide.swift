@@ -35,8 +35,8 @@ public class KeyboardLayoutGuide: UIView {
     
     func sharedInit() {
         
-        setContentHuggingPriority(UILayoutPriorityRequired, for: .vertical)
-        setContentCompressionResistancePriority(UILayoutPriorityRequired, for: .vertical)
+        setContentHuggingPriority(UILayoutPriority.required, for: .vertical)
+        setContentCompressionResistancePriority(UILayoutPriority.required, for: .vertical)
         
         translatesAutoresizingMaskIntoConstraints = false
         
