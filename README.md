@@ -35,7 +35,7 @@ For a more complex example, imagine a view where the bottom of the table view sh
 
 ### Via Interface Builder
 
-Simply add a new `UIView` to your view. This will be your keyboard proxy, so assign it to your view controller's `kgl_keyboardProxy` property. At runtime, the keyboard proxy's frame will be constrained to match that of the keyboard, so you can add any constraints you wish between your other views and the keyboard proxy. 
+Simply add a new `UIView` to your view. This will be your keyboard proxy, so assign it to your view controller's `klg_keyboardProxy` property. At runtime, the keyboard proxy's frame will be constrained to match that of the keyboard, so you can add any constraints you wish between your other views and the keyboard proxy. 
 
 Although constraints will be added at runtime, you still need to satisfy Interface Builder that the keyboard proxy has a valid layout. Add _leading_, _trailing_, _bottom_ and _height_ constraints between the proxy and its superview. These placeholder constraints will satisfy Interface Builder, but you should ensure they are removed at build time by checking `Placeholder ☑ Remove at build time` for each one in Interface Builder. You can preview how your layout changes when the keyboard appears by adjusting the _height_ constraint on your keyboard proxy.
 
