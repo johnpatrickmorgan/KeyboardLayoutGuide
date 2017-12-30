@@ -46,11 +46,21 @@ Although constraints will be added at runtime, you still need to satisfy Interfa
 
 ## Installation
 
+### CocoaPods
+
 KeyboardLayoutGuide is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod "KeyboardLayoutGuide"
+```
+
+### Carthage
+
+Add the following to your Cartfile:
+
+```
+github "johnpatrickmorgan/KeyboardLayoutGuide"
 ```
 
 ## License
