@@ -89,7 +89,7 @@ public extension UIViewController {
                 let constraint = NSLayoutConstraint(
                     item: keyboardLayoutGuide,
                     attribute: attribute,
-                    relatedBy: .greaterThanOrEqual,
+                    relatedBy: .equal,
                     toItem: proxy,
                     attribute: attribute,
                     multiplier: 1.0,
