@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "KeyboardLayoutGuide"
-s.version          = "0.4.1"
+s.version          = "0.5.0"
 s.summary          = "Enables you to set up Autolayout constraints directly between your views
 and the iOS keyboard."
 
