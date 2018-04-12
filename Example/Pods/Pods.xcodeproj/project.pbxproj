@@ -8,29 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		03440353EF2AFA12D78AC2D2DA44C21F /* InvisibleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE8A0D5103949850CE4BFBD2CECAE3F /* InvisibleView.swift */; };
-		08D0B76388FDDB68C6D26BD204490524 /* KeyboardLayoutGuide-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E3B5458182E2AB968B5243AF1F9608 /* KeyboardLayoutGuide-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08D0B76388FDDB68C6D26BD204490524 /* KeyboardLayoutGuide-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F706D61455435876EEA25420442381E6 /* KeyboardLayoutGuide-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1213F4AF83E2209794E21E6B63DB01BB /* LifecycleHooks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB88A1045312CD59ECB169A136400FFC /* LifecycleHooks.framework */; };
-		174F997B01F644FEC7D670B991E918C7 /* Pods-KeyboardLayoutGuide_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5020D8ADBFCC5D88CEB7F0949EAF92 /* Pods-KeyboardLayoutGuide_Example-dummy.m */; };
+		174F997B01F644FEC7D670B991E918C7 /* Pods-KeyboardLayoutGuide_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B61D8090358F12CE438EBA1CF3D654 /* Pods-KeyboardLayoutGuide_Example-dummy.m */; };
 		1BC5438B64FFBCC78A53A0BC5E9EFD9B /* Cancellation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971EEA7A282450039441D07DF8F9D538 /* Cancellation.swift */; };
 		1EFD0B6CFE46D13DC6E4EFE974D27158 /* LifecycleHooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F09595BB81ACC4AEFC73D8262362BE /* LifecycleHooking.swift */; };
-		2293094E0165B4B972C0B7CE64CB26E0 /* LifecycleHooks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA202856C0B508FD80A0E2EAA3A5331E /* LifecycleHooks-dummy.m */; };
+		2293094E0165B4B972C0B7CE64CB26E0 /* LifecycleHooks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD545106AE863BD5EF09525AE390EAA /* LifecycleHooks-dummy.m */; };
 		43E88AA7AB0D83616780D234C4BF67CD /* UIView+LifecycleHooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE459297228E035AD7F8ADA3914D96D /* UIView+LifecycleHooking.swift */; };
-		49BFAAFB9C1330F375A494DFA520D1E8 /* KeyboardConstraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF636685CA157BF168815DE01C6C3AA /* KeyboardConstraining.swift */; };
-		4FF0B4A87E43FD7D1CEDB78853941344 /* Pods-KeyboardLayoutGuide_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A481176827D453C6FAAFD7E776CDE8EF /* Pods-KeyboardLayoutGuide_Tests-dummy.m */; };
-		64F8C2E60D9BF0E7E5830191DC3C616D /* KeyboardLayoutGuideManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6353627DDA212EAF0A56602015970D97 /* KeyboardLayoutGuideManager.swift */; };
+		49BFAAFB9C1330F375A494DFA520D1E8 /* KeyboardConstraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8249F67C4D05B5CF8942F41D2760003B /* KeyboardConstraining.swift */; };
+		4FF0B4A87E43FD7D1CEDB78853941344 /* Pods-KeyboardLayoutGuide_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A38B412E6D26290C0D83B4DE53216EEF /* Pods-KeyboardLayoutGuide_Tests-dummy.m */; };
+		64F8C2E60D9BF0E7E5830191DC3C616D /* KeyboardLayoutGuideManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA285AB8F5719EDA405F395A498FE14 /* KeyboardLayoutGuideManager.swift */; };
 		7A0A95E546F6BD665379A078E433D27F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACD9CFE65B8972831AA238100E54B7C /* Foundation.framework */; };
-		7E8C3B3CFE2445DACB7CBB3E8993916A /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433FFA73C2DDCEA7694B5F227D46CD3 /* UIKitExtensions.swift */; };
+		7E8C3B3CFE2445DACB7CBB3E8993916A /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0835B48F4FD47DC5B88D1F5DAB1A76F9 /* UIKitExtensions.swift */; };
 		89254320D070E12DED3349EC5A223B94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACD9CFE65B8972831AA238100E54B7C /* Foundation.framework */; };
 		8CAF0FF2205DD7793E4A1EEF9755BD55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACD9CFE65B8972831AA238100E54B7C /* Foundation.framework */; };
-		A0D961AF52B4618FA3E8A3F173995926 /* Pods-KeyboardLayoutGuide_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E2D39DEC44541749F1C5FEA2D5B859 /* Pods-KeyboardLayoutGuide_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5979167C2A660FEBEC25B794B0192B0 /* KeyboardLayoutGuide-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BC5130AB6D94AF19721660067CB360 /* KeyboardLayoutGuide-dummy.m */; };
+		A0D961AF52B4618FA3E8A3F173995926 /* Pods-KeyboardLayoutGuide_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F5BA465F50BAF4FF30097CF8286525 /* Pods-KeyboardLayoutGuide_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5979167C2A660FEBEC25B794B0192B0 /* KeyboardLayoutGuide-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F47EF94F3C0084D2628B4CEC31FBCE8 /* KeyboardLayoutGuide-dummy.m */; };
 		A87167DD6EC7402403DFF15B541E3526 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECECC0CB0B78F08B0AB6E51850966C5B /* Action.swift */; };
 		AA4AAD594AB3F13E2DE1037F2DF87A8C /* UIViewController+LifecycleHooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD94CA4A9AC00AD09FFDD4725B24AC /* UIViewController+LifecycleHooking.swift */; };
-		ACAD362FDC887062F6F8683B6FCF517B /* LifecycleHooks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C07A8F6D56CCAAF7E102D2C698EB1886 /* LifecycleHooks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD37EF2D14A2B8DA4F41F39322066103 /* Pods-KeyboardLayoutGuide_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CAC3CB21E0DC367D5E64F89203C266 /* Pods-KeyboardLayoutGuide_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACAD362FDC887062F6F8683B6FCF517B /* LifecycleHooks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70EB60AAD9E67B56CF6D69F695430444 /* LifecycleHooks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD37EF2D14A2B8DA4F41F39322066103 /* Pods-KeyboardLayoutGuide_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6011B13CB7AB14583F00BA84B90A020C /* Pods-KeyboardLayoutGuide_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B47DF9CB9ADC1DA681636BFF870BFB78 /* HookObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7A06F1867D396E47CC073C65842AF6 /* HookObserver.swift */; };
 		B489E2F1EE32D1A65E302EDDE15B7E46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACD9CFE65B8972831AA238100E54B7C /* Foundation.framework */; };
-		C808B632A91EDBA376DA942C25C975AE /* KeyboardLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A152E51B1EF1BB094915D9575F087F8B /* KeyboardLayoutGuide.swift */; };
+		C808B632A91EDBA376DA942C25C975AE /* KeyboardLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC02849F3B1C9514EBC7117B2228557F /* KeyboardLayoutGuide.swift */; };
 		CBADE561EC6556FA1BDB7F7CC3A78891 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99968A746156BAC948F8481AC08DECBF /* UIKit.framework */; };
 		D899816F5B61903B6BDE7F4AD89F1B79 /* HookObservingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F449AFA7F184410634785B6636B90E8 /* HookObservingViewController.swift */; };
 		E3DF2A6372276E5F45D12C26A17E913A /* KeyValueObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A7E0BEF13B305F503E2298BA9C01DB /* KeyValueObserver.swift */; };
@@ -63,61 +63,64 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03BC5130AB6D94AF19721660067CB360 /* KeyboardLayoutGuide-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeyboardLayoutGuide-dummy.m"; sourceTree = "<group>"; };
-		0433FFA73C2DDCEA7694B5F227D46CD3 /* UIKitExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitExtensions.swift; path = Pod/Classes/UIKitExtensions.swift; sourceTree = "<group>"; };
-		059204DC7BAAE0D7239CED2C9A1A136A /* KeyboardLayoutGuide-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyboardLayoutGuide-prefix.pch"; sourceTree = "<group>"; };
-		0602099C87B82FDA1C42B54298EF0796 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		066D1B9CCD78EB31D32637D461C871E1 /* Pods_KeyboardLayoutGuide_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KeyboardLayoutGuide_Example.framework; path = "Pods-KeyboardLayoutGuide_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1795B21F085D1B2B74B75C0A1FDA2108 /* LifecycleHooks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LifecycleHooks-prefix.pch"; sourceTree = "<group>"; };
-		1BF636685CA157BF168815DE01C6C3AA /* KeyboardConstraining.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardConstraining.swift; path = Pod/Classes/KeyboardConstraining.swift; sourceTree = "<group>"; };
-		1F8FD216837B8D5C6092BA6325D0DF64 /* Pods-KeyboardLayoutGuide_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KeyboardLayoutGuide_Example.modulemap"; sourceTree = "<group>"; };
+		0835B48F4FD47DC5B88D1F5DAB1A76F9 /* UIKitExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitExtensions.swift; path = Pod/Classes/UIKitExtensions.swift; sourceTree = "<group>"; };
+		0C5C67C9A6DA2F769D683F92A93225E8 /* Pods-KeyboardLayoutGuide_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboardLayoutGuide_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		17AFEB06969D83C752A3709E68E81CEE /* KeyboardLayoutGuide.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KeyboardLayoutGuide.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		190AC906414780D5226782921E58938B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1B273BF681E64EC126EBAEE4F5F625EB /* Pods-KeyboardLayoutGuide_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyboardLayoutGuide_Tests-resources.sh"; sourceTree = "<group>"; };
+		20D9D20E4E13D7FD7961D5299D132C7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22AAD9C474C1A91E1596EEF8B467163C /* LifecycleHooks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LifecycleHooks.modulemap; sourceTree = "<group>"; };
 		24A0BD3A16C35D91E29038C7C5C91D84 /* LifecycleHooks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LifecycleHooks.framework; path = LifecycleHooks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		24E3B5458182E2AB968B5243AF1F9608 /* KeyboardLayoutGuide-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyboardLayoutGuide-umbrella.h"; sourceTree = "<group>"; };
+		2648C80E2614CFFF85F4C3D776FBCA82 /* Pods-KeyboardLayoutGuide_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyboardLayoutGuide_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		26F09595BB81ACC4AEFC73D8262362BE /* LifecycleHooking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LifecycleHooking.swift; path = Sources/LifecycleHooking.swift; sourceTree = "<group>"; };
-		371C93A0D7849AE961BA99F9AA22D03E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42177C53F1F7CD6CAF22D58965C90698 /* Pods-KeyboardLayoutGuide_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyboardLayoutGuide_Example-frameworks.sh"; sourceTree = "<group>"; };
+		311B1D9AAE1C42D6D0DBA48F5D1436AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439A05699E4919542831B76A25BED6EB /* KeyboardLayoutGuide.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeyboardLayoutGuide.xcconfig; sourceTree = "<group>"; };
 		4ACD9CFE65B8972831AA238100E54B7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4B9BBB4F000D7F507E0D59B9890E998A /* Pods-KeyboardLayoutGuide_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboardLayoutGuide_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4F449AFA7F184410634785B6636B90E8 /* HookObservingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HookObservingViewController.swift; path = Sources/HookObservingViewController.swift; sourceTree = "<group>"; };
-		57919B07E3F40D075E5D5CC13A70FF46 /* Pods-KeyboardLayoutGuide_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyboardLayoutGuide_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6353627DDA212EAF0A56602015970D97 /* KeyboardLayoutGuideManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutGuideManager.swift; path = Pod/Classes/KeyboardLayoutGuideManager.swift; sourceTree = "<group>"; };
+		6011B13CB7AB14583F00BA84B90A020C /* Pods-KeyboardLayoutGuide_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyboardLayoutGuide_Tests-umbrella.h"; sourceTree = "<group>"; };
 		65A7E0BEF13B305F503E2298BA9C01DB /* KeyValueObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyValueObserver.swift; path = Sources/KeyValueObserver.swift; sourceTree = "<group>"; };
-		70E2D39DEC44541749F1C5FEA2D5B859 /* Pods-KeyboardLayoutGuide_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyboardLayoutGuide_Example-umbrella.h"; sourceTree = "<group>"; };
+		68BDCDB40DBB5941C4E9F3613DA7CE64 /* Pods-KeyboardLayoutGuide_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyboardLayoutGuide_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6975B85D22114D8C8AE32850130E2325 /* LifecycleHooks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LifecycleHooks-prefix.pch"; sourceTree = "<group>"; };
+		70EB60AAD9E67B56CF6D69F695430444 /* LifecycleHooks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LifecycleHooks-umbrella.h"; sourceTree = "<group>"; };
+		722B0BA93A313F33F7B84BBA43F98EC6 /* Pods-KeyboardLayoutGuide_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboardLayoutGuide_Example.release.xcconfig"; sourceTree = "<group>"; };
 		73AB7947B842134B8156F9056B9A889A /* HookObservingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HookObservingView.swift; path = Sources/HookObservingView.swift; sourceTree = "<group>"; };
 		7678E0001233BA441766E3CD3AD9DE3F /* Pods_KeyboardLayoutGuide_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KeyboardLayoutGuide_Tests.framework; path = "Pods-KeyboardLayoutGuide_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F5BA465F50BAF4FF30097CF8286525 /* Pods-KeyboardLayoutGuide_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyboardLayoutGuide_Example-umbrella.h"; sourceTree = "<group>"; };
+		7C682962735EFB582FD6774AAC44403B /* KeyboardLayoutGuide-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyboardLayoutGuide-prefix.pch"; sourceTree = "<group>"; };
 		7C7A06F1867D396E47CC073C65842AF6 /* HookObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HookObserver.swift; path = Sources/HookObserver.swift; sourceTree = "<group>"; };
-		8A2735C2ED7213528C680F9ABDDBFDAF /* Pods-KeyboardLayoutGuide_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyboardLayoutGuide_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8AF242019936EEA79BA8099A604D30FE /* KeyboardLayoutGuide.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeyboardLayoutGuide.xcconfig; sourceTree = "<group>"; };
-		8E95CAF3B41B6032434C18BC333B32E2 /* Pods-KeyboardLayoutGuide_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboardLayoutGuide_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7F41D77171AA036A0E8548E488EE72A6 /* Pods-KeyboardLayoutGuide_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyboardLayoutGuide_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8249F67C4D05B5CF8942F41D2760003B /* KeyboardConstraining.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardConstraining.swift; path = Pod/Classes/KeyboardConstraining.swift; sourceTree = "<group>"; };
+		86B61D8090358F12CE438EBA1CF3D654 /* Pods-KeyboardLayoutGuide_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyboardLayoutGuide_Example-dummy.m"; sourceTree = "<group>"; };
 		8FE8A0D5103949850CE4BFBD2CECAE3F /* InvisibleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InvisibleView.swift; path = Sources/InvisibleView.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		971EEA7A282450039441D07DF8F9D538 /* Cancellation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cancellation.swift; path = Sources/Cancellation.swift; sourceTree = "<group>"; };
 		99968A746156BAC948F8481AC08DECBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		A152E51B1EF1BB094915D9575F087F8B /* KeyboardLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutGuide.swift; path = Pod/Classes/KeyboardLayoutGuide.swift; sourceTree = "<group>"; };
+		99FED85E97E81BFD38DC3C57A9CC1DB5 /* Pods-KeyboardLayoutGuide_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyboardLayoutGuide_Example-resources.sh"; sourceTree = "<group>"; };
+		9AA5260BE35E556FB719D82E7AAA5D56 /* Pods-KeyboardLayoutGuide_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboardLayoutGuide_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9DA285AB8F5719EDA405F395A498FE14 /* KeyboardLayoutGuideManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutGuideManager.swift; path = Pod/Classes/KeyboardLayoutGuideManager.swift; sourceTree = "<group>"; };
+		9DD545106AE863BD5EF09525AE390EAA /* LifecycleHooks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LifecycleHooks-dummy.m"; sourceTree = "<group>"; };
+		9DD5FDA1EFC712E4A3423F6823A669CC /* Pods-KeyboardLayoutGuide_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyboardLayoutGuide_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9F47EF94F3C0084D2628B4CEC31FBCE8 /* KeyboardLayoutGuide-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeyboardLayoutGuide-dummy.m"; sourceTree = "<group>"; };
 		A2652BF3AAEB5B947F18CAF294460743 /* SwiftExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftExtensions.swift; path = Sources/SwiftExtensions.swift; sourceTree = "<group>"; };
-		A481176827D453C6FAAFD7E776CDE8EF /* Pods-KeyboardLayoutGuide_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyboardLayoutGuide_Tests-dummy.m"; sourceTree = "<group>"; };
-		A913B12383C4823AC9C716C56D7E21F2 /* Pods-KeyboardLayoutGuide_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyboardLayoutGuide_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AD7D3265D8B801EA7FB6601512ACC9FF /* Pods-KeyboardLayoutGuide_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyboardLayoutGuide_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AE1944DA68DBE15C38F28AB9C7AF22B5 /* Pods-KeyboardLayoutGuide_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboardLayoutGuide_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B7728EE350F1E61913E698444622F14B /* LifecycleHooks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LifecycleHooks.modulemap; sourceTree = "<group>"; };
-		BC5020D8ADBFCC5D88CEB7F0949EAF92 /* Pods-KeyboardLayoutGuide_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyboardLayoutGuide_Example-dummy.m"; sourceTree = "<group>"; };
-		C07A8F6D56CCAAF7E102D2C698EB1886 /* LifecycleHooks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LifecycleHooks-umbrella.h"; sourceTree = "<group>"; };
-		C08E0DFCA0F05A3250959213F5970E9C /* Pods-KeyboardLayoutGuide_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyboardLayoutGuide_Example-resources.sh"; sourceTree = "<group>"; };
-		C480579F89C857370C624A21A50FAAF7 /* Pods-KeyboardLayoutGuide_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KeyboardLayoutGuide_Tests.modulemap"; sourceTree = "<group>"; };
-		C8F5D0BD3D6C583FE7E5DA94D46F8329 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEFADC7338ECEE2B5312425F9B3C438D /* Pods-KeyboardLayoutGuide_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyboardLayoutGuide_Tests-resources.sh"; sourceTree = "<group>"; };
-		D6AFE154EC7E3D805EBA57024B068839 /* Pods-KeyboardLayoutGuide_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyboardLayoutGuide_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D7CAC3CB21E0DC367D5E64F89203C266 /* Pods-KeyboardLayoutGuide_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyboardLayoutGuide_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A343863CC688F2F86678DD7D44BE4E05 /* Pods-KeyboardLayoutGuide_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboardLayoutGuide_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A38B412E6D26290C0D83B4DE53216EEF /* Pods-KeyboardLayoutGuide_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyboardLayoutGuide_Tests-dummy.m"; sourceTree = "<group>"; };
+		AB119D1627CACF1348E36C13F98BC1CC /* Pods-KeyboardLayoutGuide_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeyboardLayoutGuide_Example.modulemap"; sourceTree = "<group>"; };
+		BEAF18C8BE5F55EFC56252A3533F0B3C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C46AF28B83759B7E08AD116E3079249A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97FAEA6ADD5E45B375A30A526D5C153 /* KeyboardLayoutGuide.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeyboardLayoutGuide.modulemap; sourceTree = "<group>"; };
+		CFA00D6D3A04C284B33A280BD9DE4663 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D5D76A83503B77E6A63E46685713D9BC /* Pods-KeyboardLayoutGuide_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyboardLayoutGuide_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DBE2D0A736502BCA7A01F1162C4F2D2A /* KeyboardLayoutGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeyboardLayoutGuide.framework; path = KeyboardLayoutGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC02849F3B1C9514EBC7117B2228557F /* KeyboardLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutGuide.swift; path = Pod/Classes/KeyboardLayoutGuide.swift; sourceTree = "<group>"; };
 		E9AD94CA4A9AC00AD09FFDD4725B24AC /* UIViewController+LifecycleHooking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+LifecycleHooking.swift"; path = "Sources/UIViewController+LifecycleHooking.swift"; sourceTree = "<group>"; };
-		EB28689687AAB4EF91F70210E5AC647A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB88A1045312CD59ECB169A136400FFC /* LifecycleHooks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LifecycleHooks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECECC0CB0B78F08B0AB6E51850966C5B /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = Sources/Action.swift; sourceTree = "<group>"; };
 		EFE459297228E035AD7F8ADA3914D96D /* UIView+LifecycleHooking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+LifecycleHooking.swift"; path = "Sources/UIView+LifecycleHooking.swift"; sourceTree = "<group>"; };
-		F1A55972AF4107AA3F9F87D0B0B2A18C /* Pods-KeyboardLayoutGuide_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboardLayoutGuide_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F9F9B76F362CCAC21108EA9083881674 /* KeyboardLayoutGuide.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KeyboardLayoutGuide.modulemap; sourceTree = "<group>"; };
-		FA202856C0B508FD80A0E2EAA3A5331E /* LifecycleHooks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LifecycleHooks-dummy.m"; sourceTree = "<group>"; };
-		FC9D20C951DA20593304140A2CB3A2E5 /* LifecycleHooks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LifecycleHooks.xcconfig; sourceTree = "<group>"; };
+		F267D4852FADCAAD30D5880C16ECBF1D /* Pods-KeyboardLayoutGuide_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeyboardLayoutGuide_Tests.modulemap"; sourceTree = "<group>"; };
+		F706D61455435876EEA25420442381E6 /* KeyboardLayoutGuide-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyboardLayoutGuide-umbrella.h"; sourceTree = "<group>"; };
+		F7E2DEC0FA43300F78177FC2117E9933 /* Pods-KeyboardLayoutGuide_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyboardLayoutGuide_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FF55F917F038D40877EF97F91D9388E5 /* LifecycleHooks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LifecycleHooks.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,20 +187,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		50684FEEF7CDF0AAB69ED1EDDC9D4DE4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C8F5D0BD3D6C583FE7E5DA94D46F8329 /* Info.plist */,
-				B7728EE350F1E61913E698444622F14B /* LifecycleHooks.modulemap */,
-				FC9D20C951DA20593304140A2CB3A2E5 /* LifecycleHooks.xcconfig */,
-				FA202856C0B508FD80A0E2EAA3A5331E /* LifecycleHooks-dummy.m */,
-				1795B21F085D1B2B74B75C0A1FDA2108 /* LifecycleHooks-prefix.pch */,
-				C07A8F6D56CCAAF7E102D2C698EB1886 /* LifecycleHooks-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/LifecycleHooks";
-			sourceTree = "<group>";
-		};
 		58C8AEFDD0555F5CE6FAC1A0DB976ECC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,11 +198,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5C2CA17931A4A2D0B94BF5440D5AFC93 /* Pods-KeyboardLayoutGuide_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C46AF28B83759B7E08AD116E3079249A /* Info.plist */,
+				AB119D1627CACF1348E36C13F98BC1CC /* Pods-KeyboardLayoutGuide_Example.modulemap */,
+				9DD5FDA1EFC712E4A3423F6823A669CC /* Pods-KeyboardLayoutGuide_Example-acknowledgements.markdown */,
+				D5D76A83503B77E6A63E46685713D9BC /* Pods-KeyboardLayoutGuide_Example-acknowledgements.plist */,
+				86B61D8090358F12CE438EBA1CF3D654 /* Pods-KeyboardLayoutGuide_Example-dummy.m */,
+				F7E2DEC0FA43300F78177FC2117E9933 /* Pods-KeyboardLayoutGuide_Example-frameworks.sh */,
+				99FED85E97E81BFD38DC3C57A9CC1DB5 /* Pods-KeyboardLayoutGuide_Example-resources.sh */,
+				77F5BA465F50BAF4FF30097CF8286525 /* Pods-KeyboardLayoutGuide_Example-umbrella.h */,
+				0C5C67C9A6DA2F769D683F92A93225E8 /* Pods-KeyboardLayoutGuide_Example.debug.xcconfig */,
+				722B0BA93A313F33F7B84BBA43F98EC6 /* Pods-KeyboardLayoutGuide_Example.release.xcconfig */,
+			);
+			name = "Pods-KeyboardLayoutGuide_Example";
+			path = "Target Support Files/Pods-KeyboardLayoutGuide_Example";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9BB7221C5437849484D691683E976C9A /* Development Pods */,
+				FA36432B73A786F01FFEB5A102C410DA /* Development Pods */,
 				21FB659DCE044472667702E6B0E2E22B /* Frameworks */,
 				3BAC7EA598DFB46FD7FC1D55557EDEB9 /* Pods */,
 				58C8AEFDD0555F5CE6FAC1A0DB976ECC /* Products */,
@@ -221,66 +228,69 @@
 			);
 			sourceTree = "<group>";
 		};
-		87456897E103A737205B813F151AB36C /* KeyboardLayoutGuide */ = {
+		85FF7F76A0AC7FB6C9209F2C1433CAE1 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1BF636685CA157BF168815DE01C6C3AA /* KeyboardConstraining.swift */,
-				A152E51B1EF1BB094915D9575F087F8B /* KeyboardLayoutGuide.swift */,
-				6353627DDA212EAF0A56602015970D97 /* KeyboardLayoutGuideManager.swift */,
-				0433FFA73C2DDCEA7694B5F227D46CD3 /* UIKitExtensions.swift */,
-				A6D0B59156812BAE69E61B3880D9601F /* Support Files */,
+				17AFEB06969D83C752A3709E68E81CEE /* KeyboardLayoutGuide.podspec */,
+				CFA00D6D3A04C284B33A280BD9DE4663 /* LICENSE */,
+				190AC906414780D5226782921E58938B /* README.md */,
 			);
-			name = KeyboardLayoutGuide;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		9BB7221C5437849484D691683E976C9A /* Development Pods */ = {
+		8B21A73508B29D54222FF8263F5D0AF6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				87456897E103A737205B813F151AB36C /* KeyboardLayoutGuide */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A6D0B59156812BAE69E61B3880D9601F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				371C93A0D7849AE961BA99F9AA22D03E /* Info.plist */,
-				F9F9B76F362CCAC21108EA9083881674 /* KeyboardLayoutGuide.modulemap */,
-				8AF242019936EEA79BA8099A604D30FE /* KeyboardLayoutGuide.xcconfig */,
-				03BC5130AB6D94AF19721660067CB360 /* KeyboardLayoutGuide-dummy.m */,
-				059204DC7BAAE0D7239CED2C9A1A136A /* KeyboardLayoutGuide-prefix.pch */,
-				24E3B5458182E2AB968B5243AF1F9608 /* KeyboardLayoutGuide-umbrella.h */,
+				311B1D9AAE1C42D6D0DBA48F5D1436AD /* Info.plist */,
+				C97FAEA6ADD5E45B375A30A526D5C153 /* KeyboardLayoutGuide.modulemap */,
+				439A05699E4919542831B76A25BED6EB /* KeyboardLayoutGuide.xcconfig */,
+				9F47EF94F3C0084D2628B4CEC31FBCE8 /* KeyboardLayoutGuide-dummy.m */,
+				7C682962735EFB582FD6774AAC44403B /* KeyboardLayoutGuide-prefix.pch */,
+				F706D61455435876EEA25420442381E6 /* KeyboardLayoutGuide-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/KeyboardLayoutGuide";
 			sourceTree = "<group>";
 		};
-		CAAB976BB3746D60927A30C5A21EDF02 /* Targets Support Files */ = {
+		A6BF62B8A5B9D7B0E031974A685EBF76 /* KeyboardLayoutGuide */ = {
 			isa = PBXGroup;
 			children = (
-				FF73AA2AD04831AF088C9AA480DDD4B4 /* Pods-KeyboardLayoutGuide_Example */,
-				CE82321B415A9FF24E8C8A596B283861 /* Pods-KeyboardLayoutGuide_Tests */,
+				8249F67C4D05B5CF8942F41D2760003B /* KeyboardConstraining.swift */,
+				DC02849F3B1C9514EBC7117B2228557F /* KeyboardLayoutGuide.swift */,
+				9DA285AB8F5719EDA405F395A498FE14 /* KeyboardLayoutGuideManager.swift */,
+				0835B48F4FD47DC5B88D1F5DAB1A76F9 /* UIKitExtensions.swift */,
+				85FF7F76A0AC7FB6C9209F2C1433CAE1 /* Pod */,
+				8B21A73508B29D54222FF8263F5D0AF6 /* Support Files */,
 			);
-			name = "Targets Support Files";
+			name = KeyboardLayoutGuide;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		CE82321B415A9FF24E8C8A596B283861 /* Pods-KeyboardLayoutGuide_Tests */ = {
+		BEC40F5837BB072D2F4A0972C7176703 /* Pods-KeyboardLayoutGuide_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				EB28689687AAB4EF91F70210E5AC647A /* Info.plist */,
-				C480579F89C857370C624A21A50FAAF7 /* Pods-KeyboardLayoutGuide_Tests.modulemap */,
-				8A2735C2ED7213528C680F9ABDDBFDAF /* Pods-KeyboardLayoutGuide_Tests-acknowledgements.markdown */,
-				57919B07E3F40D075E5D5CC13A70FF46 /* Pods-KeyboardLayoutGuide_Tests-acknowledgements.plist */,
-				A481176827D453C6FAAFD7E776CDE8EF /* Pods-KeyboardLayoutGuide_Tests-dummy.m */,
-				D6AFE154EC7E3D805EBA57024B068839 /* Pods-KeyboardLayoutGuide_Tests-frameworks.sh */,
-				CEFADC7338ECEE2B5312425F9B3C438D /* Pods-KeyboardLayoutGuide_Tests-resources.sh */,
-				D7CAC3CB21E0DC367D5E64F89203C266 /* Pods-KeyboardLayoutGuide_Tests-umbrella.h */,
-				4B9BBB4F000D7F507E0D59B9890E998A /* Pods-KeyboardLayoutGuide_Tests.debug.xcconfig */,
-				F1A55972AF4107AA3F9F87D0B0B2A18C /* Pods-KeyboardLayoutGuide_Tests.release.xcconfig */,
+				BEAF18C8BE5F55EFC56252A3533F0B3C /* Info.plist */,
+				F267D4852FADCAAD30D5880C16ECBF1D /* Pods-KeyboardLayoutGuide_Tests.modulemap */,
+				68BDCDB40DBB5941C4E9F3613DA7CE64 /* Pods-KeyboardLayoutGuide_Tests-acknowledgements.markdown */,
+				7F41D77171AA036A0E8548E488EE72A6 /* Pods-KeyboardLayoutGuide_Tests-acknowledgements.plist */,
+				A38B412E6D26290C0D83B4DE53216EEF /* Pods-KeyboardLayoutGuide_Tests-dummy.m */,
+				2648C80E2614CFFF85F4C3D776FBCA82 /* Pods-KeyboardLayoutGuide_Tests-frameworks.sh */,
+				1B273BF681E64EC126EBAEE4F5F625EB /* Pods-KeyboardLayoutGuide_Tests-resources.sh */,
+				6011B13CB7AB14583F00BA84B90A020C /* Pods-KeyboardLayoutGuide_Tests-umbrella.h */,
+				9AA5260BE35E556FB719D82E7AAA5D56 /* Pods-KeyboardLayoutGuide_Tests.debug.xcconfig */,
+				A343863CC688F2F86678DD7D44BE4E05 /* Pods-KeyboardLayoutGuide_Tests.release.xcconfig */,
 			);
 			name = "Pods-KeyboardLayoutGuide_Tests";
 			path = "Target Support Files/Pods-KeyboardLayoutGuide_Tests";
+			sourceTree = "<group>";
+		};
+		CAAB976BB3746D60927A30C5A21EDF02 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C2CA17931A4A2D0B94BF5440D5AFC93 /* Pods-KeyboardLayoutGuide_Example */,
+				BEC40F5837BB072D2F4A0972C7176703 /* Pods-KeyboardLayoutGuide_Tests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		DE2D78CEEF414FC5EDD331259678A412 /* LifecycleHooks */ = {
@@ -297,28 +307,32 @@
 				A2652BF3AAEB5B947F18CAF294460743 /* SwiftExtensions.swift */,
 				EFE459297228E035AD7F8ADA3914D96D /* UIView+LifecycleHooking.swift */,
 				E9AD94CA4A9AC00AD09FFDD4725B24AC /* UIViewController+LifecycleHooking.swift */,
-				50684FEEF7CDF0AAB69ED1EDDC9D4DE4 /* Support Files */,
+				F6D945B06E4B09C89B2FD0306CDC2E07 /* Support Files */,
 			);
 			name = LifecycleHooks;
 			path = LifecycleHooks;
 			sourceTree = "<group>";
 		};
-		FF73AA2AD04831AF088C9AA480DDD4B4 /* Pods-KeyboardLayoutGuide_Example */ = {
+		F6D945B06E4B09C89B2FD0306CDC2E07 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0602099C87B82FDA1C42B54298EF0796 /* Info.plist */,
-				1F8FD216837B8D5C6092BA6325D0DF64 /* Pods-KeyboardLayoutGuide_Example.modulemap */,
-				A913B12383C4823AC9C716C56D7E21F2 /* Pods-KeyboardLayoutGuide_Example-acknowledgements.markdown */,
-				AD7D3265D8B801EA7FB6601512ACC9FF /* Pods-KeyboardLayoutGuide_Example-acknowledgements.plist */,
-				BC5020D8ADBFCC5D88CEB7F0949EAF92 /* Pods-KeyboardLayoutGuide_Example-dummy.m */,
-				42177C53F1F7CD6CAF22D58965C90698 /* Pods-KeyboardLayoutGuide_Example-frameworks.sh */,
-				C08E0DFCA0F05A3250959213F5970E9C /* Pods-KeyboardLayoutGuide_Example-resources.sh */,
-				70E2D39DEC44541749F1C5FEA2D5B859 /* Pods-KeyboardLayoutGuide_Example-umbrella.h */,
-				8E95CAF3B41B6032434C18BC333B32E2 /* Pods-KeyboardLayoutGuide_Example.debug.xcconfig */,
-				AE1944DA68DBE15C38F28AB9C7AF22B5 /* Pods-KeyboardLayoutGuide_Example.release.xcconfig */,
+				20D9D20E4E13D7FD7961D5299D132C7A /* Info.plist */,
+				22AAD9C474C1A91E1596EEF8B467163C /* LifecycleHooks.modulemap */,
+				FF55F917F038D40877EF97F91D9388E5 /* LifecycleHooks.xcconfig */,
+				9DD545106AE863BD5EF09525AE390EAA /* LifecycleHooks-dummy.m */,
+				6975B85D22114D8C8AE32850130E2325 /* LifecycleHooks-prefix.pch */,
+				70EB60AAD9E67B56CF6D69F695430444 /* LifecycleHooks-umbrella.h */,
 			);
-			name = "Pods-KeyboardLayoutGuide_Example";
-			path = "Target Support Files/Pods-KeyboardLayoutGuide_Example";
+			name = "Support Files";
+			path = "../Target Support Files/LifecycleHooks";
+			sourceTree = "<group>";
+		};
+		FA36432B73A786F01FFEB5A102C410DA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6BF62B8A5B9D7B0E031974A685EBF76 /* KeyboardLayoutGuide */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -436,8 +450,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -531,102 +545,26 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0DFCC4554BCE7F6E5796271D55B7A309 /* Debug */ = {
+		20041FBA83B3924696676344D29EDB61 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B9BBB4F000D7F507E0D59B9890E998A /* Pods-KeyboardLayoutGuide_Tests.debug.xcconfig */;
+			baseConfigurationReference = 439A05699E4919542831B76A25BED6EB /* KeyboardLayoutGuide.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-KeyboardLayoutGuide_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KeyboardLayoutGuide_Tests/Pods-KeyboardLayoutGuide_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_KeyboardLayoutGuide_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		123CABC71EC504F8A66FF7F9582FC9DD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AF242019936EEA79BA8099A604D30FE /* KeyboardLayoutGuide.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/KeyboardLayoutGuide/KeyboardLayoutGuide-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/KeyboardLayoutGuide/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/KeyboardLayoutGuide/KeyboardLayoutGuide.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = KeyboardLayoutGuide;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		179EA24409671EB94B3DDC0DB8F791E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC9D20C951DA20593304140A2CB3A2E5 /* LifecycleHooks.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LifecycleHooks/LifecycleHooks-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LifecycleHooks/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LifecycleHooks/LifecycleHooks.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = LifecycleHooks;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -638,29 +576,83 @@
 			};
 			name = Debug;
 		};
-		63481995B7AC39F2C4EE3EB325B8EDD5 /* Release */ = {
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE1944DA68DBE15C38F28AB9C7AF22B5 /* Pods-KeyboardLayoutGuide_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		481127351925B684C2F4EFEB0A05EB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 722B0BA93A313F33F7B84BBA43F98EC6 /* Pods-KeyboardLayoutGuide_Example.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-KeyboardLayoutGuide_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-KeyboardLayoutGuide_Example/Pods-KeyboardLayoutGuide_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -669,36 +661,128 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		65C7DAA7BF93C10E02D40A3DA1E15C43 /* Debug */ = {
+		74EF6050A84AEBFE2A22EEE8AC78A47F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E95CAF3B41B6032434C18BC333B32E2 /* Pods-KeyboardLayoutGuide_Example.debug.xcconfig */;
+			baseConfigurationReference = 9AA5260BE35E556FB719D82E7AAA5D56 /* Pods-KeyboardLayoutGuide_Tests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyboardLayoutGuide_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyboardLayoutGuide_Tests/Pods-KeyboardLayoutGuide_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KeyboardLayoutGuide_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E60941992E14DFDF87B74E91B7CAED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF55F917F038D40877EF97F91D9388E5 /* LifecycleHooks.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LifecycleHooks/LifecycleHooks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LifecycleHooks/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LifecycleHooks/LifecycleHooks.modulemap";
+				PRODUCT_NAME = LifecycleHooks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABA7EBC338605608B2D188F63052BF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 439A05699E4919542831B76A25BED6EB /* KeyboardLayoutGuide.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeyboardLayoutGuide/KeyboardLayoutGuide-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeyboardLayoutGuide/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeyboardLayoutGuide/KeyboardLayoutGuide.modulemap";
+				PRODUCT_NAME = KeyboardLayoutGuide;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B96F4AA07554B55DB1AB739F785BD4F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C5C67C9A6DA2F769D683F92A93225E8 /* Pods-KeyboardLayoutGuide_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-KeyboardLayoutGuide_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-KeyboardLayoutGuide_Example/Pods-KeyboardLayoutGuide_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -708,6 +792,36 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C6B59C1937812BD9E6B4253D2F770A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF55F917F038D40877EF97F91D9388E5 /* LifecycleHooks.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LifecycleHooks/LifecycleHooks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LifecycleHooks/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LifecycleHooks/LifecycleHooks.modulemap";
+				PRODUCT_NAME = LifecycleHooks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -715,83 +829,62 @@
 			};
 			name = Debug;
 		};
-		74D67718137430AAFC931D6D692F926F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC9D20C951DA20593304140A2CB3A2E5 /* LifecycleHooks.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LifecycleHooks/LifecycleHooks-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LifecycleHooks/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LifecycleHooks/LifecycleHooks.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = LifecycleHooks;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
+		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -799,73 +892,25 @@
 			};
 			name = Debug;
 		};
-		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+		FA75B3908718776822255D83F07C3F6D /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C13C69449168545C0556C1A171983657 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1A55972AF4107AA3F9F87D0B0B2A18C /* Pods-KeyboardLayoutGuide_Tests.release.xcconfig */;
+			baseConfigurationReference = A343863CC688F2F86678DD7D44BE4E05 /* Pods-KeyboardLayoutGuide_Tests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-KeyboardLayoutGuide_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-KeyboardLayoutGuide_Tests/Pods-KeyboardLayoutGuide_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -873,47 +918,12 @@
 				PRODUCT_NAME = Pods_KeyboardLayoutGuide_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		C3BEC74B3DD3EFCC30F96D9E0576B4FC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AF242019936EEA79BA8099A604D30FE /* KeyboardLayoutGuide.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KeyboardLayoutGuide/KeyboardLayoutGuide-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeyboardLayoutGuide/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KeyboardLayoutGuide/KeyboardLayoutGuide.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = KeyboardLayoutGuide;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -921,8 +931,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
-				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -930,8 +940,8 @@
 		3C0E13C9BBFAD2FED9C381883060B0B7 /* Build configuration list for PBXNativeTarget "LifecycleHooks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				179EA24409671EB94B3DDC0DB8F791E8 /* Debug */,
-				74D67718137430AAFC931D6D692F926F /* Release */,
+				C6B59C1937812BD9E6B4253D2F770A0A /* Debug */,
+				8E60941992E14DFDF87B74E91B7CAED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -939,8 +949,8 @@
 		4FBA3BFC7FA761FC6AE1CB0AE2E4209F /* Build configuration list for PBXNativeTarget "Pods-KeyboardLayoutGuide_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65C7DAA7BF93C10E02D40A3DA1E15C43 /* Debug */,
-				63481995B7AC39F2C4EE3EB325B8EDD5 /* Release */,
+				B96F4AA07554B55DB1AB739F785BD4F5 /* Debug */,
+				481127351925B684C2F4EFEB0A05EB2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -948,8 +958,8 @@
 		7A3CFC90E41DE1B52C0742B0EE3B5A26 /* Build configuration list for PBXNativeTarget "Pods-KeyboardLayoutGuide_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0DFCC4554BCE7F6E5796271D55B7A309 /* Debug */,
-				C13C69449168545C0556C1A171983657 /* Release */,
+				74EF6050A84AEBFE2A22EEE8AC78A47F /* Debug */,
+				FA75B3908718776822255D83F07C3F6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -957,8 +967,8 @@
 		8CD740459BB6F78F24F9C265F95D0B1D /* Build configuration list for PBXNativeTarget "KeyboardLayoutGuide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3BEC74B3DD3EFCC30F96D9E0576B4FC /* Debug */,
-				123CABC71EC504F8A66FF7F9582FC9DD /* Release */,
+				20041FBA83B3924696676344D29EDB61 /* Debug */,
+				ABA7EBC338605608B2D188F63052BF15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

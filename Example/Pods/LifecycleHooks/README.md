@@ -2,7 +2,7 @@
 
 [![Version](https://img.shields.io/cocoapods/v/LifecycleHooks.svg?style=flat)](http://cocoapods.org/pods/LifecycleHooks)
 [![License](https://img.shields.io/cocoapods/l/LifecycleHooks.svg?style=flat)](http://cocoapods.org/pods/LifecycleHooks)
-![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg)
+![Swift](https://img.shields.io/badge/Swift-4.1-orange.svg)
 
 ## About
 
@@ -54,11 +54,21 @@ The following parameters allow for further customization of lifecycle hooks:
 
 ## Installation
 
+### CocoaPods
+
 LifecycleHooks is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'LifecycleHooks'
+```
+
+### Carthage
+
+Add the following to your Cartfile:
+
+```
+github "johnpatrickmorgan/LifecycleHooks"
 ```
 
 ## License
