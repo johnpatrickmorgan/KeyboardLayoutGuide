@@ -15,11 +15,11 @@ public struct KeyboardLayoutGuideManager {
     
     private static var __registerForNotificationsOnceOnly: () = { () -> Void in
         
-        NotificationCenter.default.addObserver(forName: NSNotification.Name.UIKeyboardWillChangeFrame, object: nil, queue: .main) { notification in
+        NotificationCenter.default.addObserver(forName: UIResponder.keyboardWillChangeFrameNotification, object: nil, queue: .main) { notification in
             
             guard let
-                newFrame = ((notification as NSNotification).userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue,
-                let duration = (notification as NSNotification).userInfo?[UIKeyboardAnimationDurationUserInfoKey] as? TimeInterval else {
+                newFrame = ((notification as NSNotification).userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue,
+                let duration = (notification as NSNotification).userInfo?[UIResponder.keyboardAnimationDurationUserInfoKey] as? TimeInterval else {
                 return
             }
             
@@ -46,7 +46,7 @@ public struct KeyboardLayoutGuideManager {
         
         window.addSubview(guide)
         
-        let edges: [NSLayoutAttribute] = [.bottom, .leading, .trailing]
+        let edges: [NSLayoutConstraint.Attribute] = [.bottom, .leading, .trailing]
         
         for edge in edges {
             NSLayoutConstraint(item: window,

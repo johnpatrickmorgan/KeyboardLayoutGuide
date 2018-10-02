@@ -47,6 +47,6 @@ public class KeyboardLayoutGuide: UIView {
     
     override public var intrinsicContentSize: CGSize {
         
-        return CGSize(width: UIViewNoIntrinsicMetric, height: keyboardHeight)
+        return CGSize(width: UIView.noIntrinsicMetric, height: keyboardHeight)
     }
 }

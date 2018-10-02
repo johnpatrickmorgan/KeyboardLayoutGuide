@@ -81,7 +81,7 @@ public extension UIViewController {
         
         klg_constrainKeyboard() { keyboardLayoutGuide in
             
-            let attributes: [NSLayoutAttribute] = [.top, .bottom, .leading, .trailing]
+            let attributes: [NSLayoutConstraint.Attribute] = [.top, .bottom, .leading, .trailing]
             var constraints = [NSLayoutConstraint]()
             
             for attribute in attributes {

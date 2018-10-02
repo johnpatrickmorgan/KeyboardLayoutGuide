@@ -20,11 +20,12 @@ s.social_media_url = 'https://twitter.com/jpmmusic'
 
 s.platform     = :ios, '8.0'
 s.requires_arc = true
+s.swift_version = '4.2'
 
 s.source_files = 'Pod/Classes/**/*'
 
 s.frameworks = 'UIKit'
 
-s.dependency 'LifecycleHooks', '~> 0.4'
+s.dependency 'LifecycleHooks', '~> 0.5'
 
 end
