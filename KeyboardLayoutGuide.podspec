@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "KeyboardLayoutGuide"
-s.version          = "0.5.0"
+s.version          = "0.6.0"
 s.summary          = "Enables you to set up Autolayout constraints directly between your views
 and the iOS keyboard."
 
@@ -14,7 +14,7 @@ DESC
 
 s.homepage         = "https://github.com/johnpatrickmorgan/KeyboardLayoutGuide"
 s.license          = 'MIT'
-s.author           = { "John Morgan" => "johnpatrickmorganuk@gmail.com" }
+s.author           = { "johnpatrickmorgan" => "johnpatrickmorganuk@gmail.com" }
 s.source           = { :git => "https://github.com/johnpatrickmorgan/KeyboardLayoutGuide.git", :tag => s.version.to_s }
 s.social_media_url = 'https://twitter.com/jpmmusic'
 

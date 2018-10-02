@@ -50,7 +50,7 @@
 		8205F2281CCE2872000746E2 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		82CC59B21CE0D71300429726 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		BBAD21CDD511C7F7326D95D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D8C1AD2ACEE55607CAB0E73A /* KeyboardLayoutGuide.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KeyboardLayoutGuide.podspec; path = ../KeyboardLayoutGuide.podspec; sourceTree = "<group>"; };
+		D8C1AD2ACEE55607CAB0E73A /* KeyboardLayoutGuide.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KeyboardLayoutGuide.podspec; path = ../KeyboardLayoutGuide.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
