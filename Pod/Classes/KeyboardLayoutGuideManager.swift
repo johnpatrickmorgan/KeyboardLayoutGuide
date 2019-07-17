@@ -78,11 +78,13 @@ public struct KeyboardLayoutGuideManager {
         
         let visibleKeyboardFrame = newFrame.intersection(window.frame)
         
-        window.layoutIfNeeded()
-        UIView.animate(withDuration: duration) {
-            
-            keyboardHeight = visibleKeyboardFrame.height
+        DispatchQueue.main.async {
             window.layoutIfNeeded()
+            UIView.animate(withDuration: duration) {
+                
+                keyboardHeight = visibleKeyboardFrame.height
+                window.layoutIfNeeded()
+            }
         }
     }
 }
