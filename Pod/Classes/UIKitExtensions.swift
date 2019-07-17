@@ -30,7 +30,7 @@ public extension UIViewController {
      constrained to match those of the keyboard layout guide. When the view will disappear, the constraints 
      will be deactivated.
      */
-    @IBOutlet public var klg_keyboardProxy: UIView? {
+    @IBOutlet var klg_keyboardProxy: UIView? {
         get {
             return objc_getAssociatedObject(self, &AssociatedKeys.keyboardProxy) as? UIView
         }
@@ -48,7 +48,7 @@ public extension UIViewController {
      
      - parameter createConstraints: A closure within which the layout guide is available for use in constraints. Generated constraints should be returned by the closure.
      */
-    public func klg_constrainKeyboard(_ createConstraints: @escaping (KeyboardLayoutGuide) -> [NSLayoutConstraint]) {
+    func klg_constrainKeyboard(_ createConstraints: @escaping (KeyboardLayoutGuide) -> [NSLayoutConstraint]) {
         
         onView(.didMoveToWindow) { [weak self] in
             
@@ -75,7 +75,7 @@ public extension UIViewController {
      layout guide. It should not have any other constraints that might conflict . The proxy must be part
      of the view controller's view hierarchy.
      */
-    public func klg_constrainKeyboardProxy(_ proxy: UIView) {
+    func klg_constrainKeyboardProxy(_ proxy: UIView) {
         
         proxy.isHidden = true
         
