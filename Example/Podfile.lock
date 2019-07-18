@@ -1,5 +1,5 @@
 PODS:
-  - KeyboardLayoutGuide (0.6.0):
+  - KeyboardLayoutGuide (0.7.0):
     - LifecycleHooks (~> 0.5)
   - LifecycleHooks (0.6.0)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KeyboardLayoutGuide: 639f235547708861d0fdafd98efdac634409a889
+  KeyboardLayoutGuide: 949a06cc61b3272a317016f36e375adbf4ae803f
   LifecycleHooks: 04b78e38bfbb754d0f2259fdace37e23f1150b91
 
 PODFILE CHECKSUM: dc5d9e85735fe573ef236d6fdf4c04462047dd88
