@@ -27,4 +27,14 @@ class ContainerViewController: UIViewController {
             sender.setTranslation(.zero, in: view)
         }
     }
+    
+    @IBAction func showAlert(_ sender: UIButton) {
+        let alertVC = UIAlertController(
+            title: "ALERT",
+            message: "This is an alert",
+            preferredStyle: .alert
+        )
+        alertVC.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        present(alertVC, animated: true, completion: nil)
+    }
 }
