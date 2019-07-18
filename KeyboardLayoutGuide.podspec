@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "KeyboardLayoutGuide"
-s.version          = "0.6.0"
+s.version          = "0.7.0"
 s.summary          = "Enables you to set up Autolayout constraints directly between your views
 and the iOS keyboard."
 
@@ -20,12 +20,12 @@ s.social_media_url = 'https://twitter.com/jpmmusic'
 
 s.platform     = :ios, '8.0'
 s.requires_arc = true
-s.swift_version = '4.2'
+s.swift_version = '5.0'
 
 s.source_files = 'Pod/Classes/**/*'
 
 s.frameworks = 'UIKit'
 
-s.dependency 'LifecycleHooks', '~> 0.5'
+s.dependency 'LifecycleHooks', '~> 0.6'
 
 end
