@@ -16,14 +16,14 @@ public struct KeyboardLayoutGuideManager {
     private static var __registerForNotificationsOnceOnly: () = { () -> Void in
         
         NotificationCenter.default.addObserver(forName: UIResponder.keyboardWillChangeFrameNotification, object: nil, queue: .main) { notification in
-            
-            guard let
-                newFrame = ((notification as NSNotification).userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue,
-                let duration = (notification as NSNotification).userInfo?[UIResponder.keyboardAnimationDurationUserInfoKey] as? TimeInterval else {
+            guard let userInfo = notification.userInfo else { return }
+            guard let newFrame = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue,
+                  let duration = userInfo[UIResponder.keyboardAnimationDurationUserInfoKey] as? TimeInterval,
+                  let curveValue = userInfo[UIResponder.keyboardAnimationCurveUserInfoKey] as? Int, let curve = UIView.AnimationCurve(rawValue: curveValue) else {
                 return
             }
             
-            keyboardDidChangeFrame(newFrame, duration: duration)
+            keyboardDidChangeFrame(newFrame, duration: duration, curve: curve)
         }
     }()
     
@@ -72,19 +72,26 @@ public struct KeyboardLayoutGuideManager {
         }
     }
     
-    static func keyboardDidChangeFrame(_ newFrame: CGRect, duration: TimeInterval) {
-        
+    static func keyboardDidChangeFrame(_ newFrame: CGRect, duration: TimeInterval, curve: UIView.AnimationCurve) {
         guard let window = UIApplication.shared.keyWindow else { return }
         
         let visibleKeyboardFrame = newFrame.intersection(window.frame)
         
         DispatchQueue.main.async {
             window.layoutIfNeeded()
-            UIView.animate(withDuration: duration) {
-                
-                keyboardHeight = visibleKeyboardFrame.height
-                window.layoutIfNeeded()
-            }
+            
+            UIView.beginAnimations(nil, context: nil)
+            
+            // Setup animation parameters
+            UIView.setAnimationCurve(curve)
+            UIView.setAnimationDuration(duration)
+            UIView.setAnimationBeginsFromCurrentState(true)
+            
+            // Animations
+            keyboardHeight = visibleKeyboardFrame.height
+            window.layoutIfNeeded()
+            
+            UIView.commitAnimations()
         }
     }
 }
