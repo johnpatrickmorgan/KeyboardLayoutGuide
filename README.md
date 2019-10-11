@@ -48,8 +48,7 @@ Although constraints will be added at runtime, you still need to satisfy Interfa
 
 ### CocoaPods
 
-KeyboardLayoutGuide is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+KeyboardLayoutGuide is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod "KeyboardLayoutGuide"
@@ -61,6 +60,16 @@ Add the following to your Cartfile:
 
 ```
 github "johnpatrickmorgan/KeyboardLayoutGuide"
+```
+
+### Swift Package Manager
+
+Adding the following to the `dependencies` array of your `Package.swift`:
+
+```swift
+dependencies: [
+	.package(url: "https://github.com/johnpatrickmorgan/KeyboardLayoutGuide.git", from: "0.7.1")
+]
 ```
 
 ## License
