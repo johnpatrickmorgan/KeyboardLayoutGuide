@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "KeyboardLayoutGuide",
     platforms: [
-        .iOS(.v8)
+        .iOS(.v9)
     ],
     products: [
         .library(
@@ -13,12 +13,12 @@ let package = Package(
             targets: ["KeyboardLayoutGuide"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/johnpatrickmorgan/LifecycleHooks.git", from: "0.6.1")
+        .package(url: "https://github.com/johnpatrickmorgan/LifecycleHooks.git", from: "0.6.2")
     ],
     targets: [
         .target(
             name: "KeyboardLayoutGuide",
-            dependencies: [],
+            dependencies: ["LifecycleHooks"],
             path: "Pod/Classes"
         )
     ]

@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LifecycleHooks",
+        "repositoryURL": "https://github.com/johnpatrickmorgan/LifecycleHooks.git",
+        "state": {
+          "branch": null,
+          "revision": "028f56bf6f9633c08369b21f8320fcf2c5bf3588",
+          "version": "0.6.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
