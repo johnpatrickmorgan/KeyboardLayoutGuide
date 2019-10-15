@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 /**
  *  Mixin to enable keyboard layout guide methods to be used with unprefixed method names.

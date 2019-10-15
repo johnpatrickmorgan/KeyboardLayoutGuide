@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 /**
  *  Keeps track of the keyboard height and a keyboard layout guide for any windows that require one.

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 import LifecycleHooks
 
 public extension UIViewController {
