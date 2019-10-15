@@ -1,6 +1,6 @@
 {
   "name": "KeyboardLayoutGuide",
-  "version": "0.7.0",
+  "version": "0.7.2",
   "summary": "Enables you to set up Autolayout constraints directly between your views\nand the iOS keyboard.",
   "description": "Imagine being able to set up Autolayout constraints directly between your views\nand the iOS keyboard, so that your layout updates whenever the keyboard's frame changes.\nKeyboardLayoutGuide makes that possible, providing options to do so entirely within\nInterface Builder or in code.",
   "homepage": "https://github.com/johnpatrickmorgan/KeyboardLayoutGuide",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/johnpatrickmorgan/KeyboardLayoutGuide.git",
-    "tag": "0.7.0"
+    "tag": "0.7.2"
   },
   "social_media_url": "https://twitter.com/jpmmusic",
   "platforms": {
@@ -22,7 +22,7 @@
   "frameworks": "UIKit",
   "dependencies": {
     "LifecycleHooks": [
-      "~> 0.5"
+      "~> 0.6"
     ]
   },
   "swift_version": "5.0"

@@ -1,13 +1,13 @@
 PODS:
-  - KeyboardLayoutGuide (0.7.0):
-    - LifecycleHooks (~> 0.5)
+  - KeyboardLayoutGuide (0.7.2):
+    - LifecycleHooks (~> 0.6)
   - LifecycleHooks (0.6.0)
 
 DEPENDENCIES:
   - KeyboardLayoutGuide (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - LifecycleHooks
 
 EXTERNAL SOURCES:
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KeyboardLayoutGuide: 949a06cc61b3272a317016f36e375adbf4ae803f
+  KeyboardLayoutGuide: 3bb8d93ef1d61e6f0b3b80668fba5bbcfee829a6
   LifecycleHooks: 04b78e38bfbb754d0f2259fdace37e23f1150b91
 
 PODFILE CHECKSUM: dc5d9e85735fe573ef236d6fdf4c04462047dd88
 
-COCOAPODS: 1.7.4
+COCOAPODS: 1.8.3
